@@ -5,7 +5,7 @@ input [31:0] A, WD;
 output reg [31:0] RD;   
  
 integer i; 
-reg [7:0] data_mem [255:0]; // data memory size is 256 bytes 
+reg [7:0] data_mem [255:0]; // data memory has 256 memory slots of 8 bits 
 
 initial begin 
 			data_mem[0] = 8'b0;
