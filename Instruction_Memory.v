@@ -3,7 +3,7 @@ module Instruction_Memory(A, RD);
 input [31:0] A; 
 output reg [31:0] RD; 
 integer i;
-reg [7:0] instr_mem [255:0]; // instruction memory size is 256 bytes 
+reg [7:0] instr_mem [255:0]; // instruction memory has 256 memory slots of 8 bits 
 
 initial begin   	
 
