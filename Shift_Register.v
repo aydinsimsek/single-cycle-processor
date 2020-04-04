@@ -1,7 +1,7 @@
 module Shift_Register(in,shift_right_left,shift_amount,out);
 
 input [31:0] in;
-input [7:0] shift_amount; // SHIFT AMOUNT WILL BE GET DIRECTLY FROM THE INSTRUCTION (instr7:0) 
+input [7:0] shift_amount; // shift amount will be get directly from the instruction (instr7:0) 
 input shift_right_left; 
 output reg [31:0] out; 
 
