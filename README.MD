@@ -1,4 +1,4 @@
-## About
+# About
 For this project I designed the datapath and the controller unit of a 32-bit single cycle processor that supports some of the ARM instructions.
 The instruction set of this processor is listed in the below table:
 | mnemonic | name of the instruction         | instruction     | operation                      |
@@ -13,7 +13,7 @@ The instruction set of this processor is listed in the below table:
 | STR      | Store                           | STR Rd,[Rn,imm] | memory[Rn+imm] ← Rd            |
 | LDR      | Load                            | LDR Rd,[Rn,imm] | Rd ← memory[Rn+imm]            |
 
-# Simulation Results 
+## Simulation Results 
 Simulation results for each instruction in this processor's instruction set are as below:
 ![](waveform.png) 
     
