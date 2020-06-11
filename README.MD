@@ -13,7 +13,7 @@ The instruction set of this processor is listed in the below table:
 | STR      | Store                           | STR Rd,[Rn,imm] | memory[Rn+imm] ← Rd            |
 | LDR      | Load                            | LDR Rd,[Rn,imm] | Rd ← memory[Rn+imm]            |
 
-
+# Simulation Results 
 Simulation results for each instruction in this processor's instruction set are as below:
 ![](waveform.png) 
     
